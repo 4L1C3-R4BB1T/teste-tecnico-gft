@@ -7,12 +7,12 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.printf("Digite um número: ");
+		System.out.printf("Digite um numero: ");
 		int num = sc.nextInt();
 		
 		boolean aux = false;
 		
-		System.out.printf("Divisível por");
+		System.out.printf("Divisivel por");
 		if (num % 3 == 0) {
 			System.out.printf(" 3");
 			aux = true;

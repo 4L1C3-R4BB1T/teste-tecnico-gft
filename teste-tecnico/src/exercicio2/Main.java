@@ -7,25 +7,23 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.printf("Digite um numero: ");
+		System.out.printf("Digite um número: ");
 		int num = sc.nextInt();
 		
 		boolean aux = false;
 		
-		System.out.printf("Divisivel por");
+		System.out.printf("Divisível por");
 		if (num % 3 == 0) {
 			System.out.printf(" 3");
 			aux = true;
 		}
 	
 		if (num % 6 == 0) {
-			if (aux) System.out.printf(",");
-			System.out.printf(" 6");
+			System.out.printf(aux ? ", 6" : " 6");
 		}
 		
 		if (num % 7 == 0) {
-			if (aux) System.out.printf(",");
-			System.out.printf(" 7");
+			System.out.printf(aux ? ", 7" : " 7");
 		}
 		
 		sc.close();

@@ -14,19 +14,19 @@ public abstract class Animal {
 		return nome;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    public void setNome(String nome) {
+    	this.nome = nome;
+    }
 
-	public Double getPeso() {
-		return peso;
-	}
+    public Double getPeso() {
+    	return peso;
+    }
 
-	public void setPeso(Double peso) {
-		this.peso = peso;
-	}
+    public void setPeso(Double peso) {
+    	this.peso = peso;
+    }
 
-	public abstract void som();
+    public abstract void som();
 
     public abstract double quantidadeDeRacao();
 	
